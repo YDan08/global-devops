@@ -1,0 +1,35 @@
+json para cadastro de mulher
+
+{
+    "nomeMulher" : "isabella",
+    "email" : "isabella@gmail.com",
+    "senha" : "senha123",
+    "cpf" : 123456,
+    "cpfDigito" : 12,
+    "telefone" : 123456789,
+    "telefoneDDD" : 11
+}
+
+json para cadastro de local escolhido
+
+{
+"codMulher" : 1,
+    "incidente" : "tres caras numa moto",
+    "dtOcorrencia" : "11/11/2022",
+    "avaliacaoPerigo" : 3,
+        "endereco" : {
+        "nomeRua": "Bom retiro",
+        "desComplemento": "Ao lado do shopping cidade sao paulo",
+        "bairro" : {
+            "nomeBairro" : "Paulista",
+            "cidade" : {
+                "nomeCidade" : "São Paulo",
+                "siglaCidade" : "SP",
+                "estado" : {
+                    "nomeEstado" : "São paulo",
+                    "siglaEstado" : "SP"
+                }
+            }
+        }
+    }
+} 
